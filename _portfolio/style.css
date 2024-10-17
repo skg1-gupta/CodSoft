@@ -1,0 +1,329 @@
+*{
+    padding: 0%;
+    margin: 0%;
+font-family: "Atkinson Hyperlegible", sans-serif;
+font-weight: 400;
+font-style: normal;
+  }
+  .jun{
+    color: #ff6c6c;
+}
+  #site_container{
+    display: flex;
+  background-color:rgba(243,243,243,255);
+color: black;
+transition: 1s;
+   width: 100%;
+   height: 1090px;
+  }
+  #color_box1{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color:#ff6c6c;
+    position: absolute;
+    left: 20px;
+    top: 24px;
+  }
+  #side_title_naming{
+    font-weight: bold;
+    font-size: 30px;
+    position: absolute;
+    left: 63px;
+    top: 20px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+  }
+
+
+  #title_work{
+    position: absolute;
+    left:68px;
+    top: 53px;
+    font-size: 12px;
+    letter-spacing: 2.4px;
+
+  }
+  #jun1{
+    text-decoration:line-through;
+     position: absolute;
+     left:274px;
+     top: -5px;
+    size: 20px;
+    font-size: 20px;
+font-family: "Kumar One Outline", system-ui;
+font-weight: 40;
+font-style: normal;
+
+}
+  #header_nav{
+    width: 400px;
+    height: 50px;
+   position: absolute;
+   right: 20px;
+   display: flex;
+   top: 30px;
+   justify-content: space-evenly;
+   align-content: center;
+   }
+  #header_nav div{
+    width: 80px;
+    height: 20px;
+    border-right: 2px solid rgb(0, 0, 0);
+    text-align: center;
+  }
+   div a{
+    text-decoration: none;
+    color: black;
+  }
+  #header_nav #Personal{
+    text-align: center;
+    border: none;
+ }
+  #header_nav #Skills{
+    width: 60px;
+  }
+ #site_logo_image{
+  height: 470px;
+  width: 470px;
+  border-radius: 50%;
+  background-image: url(title_image.jpg);
+  background-size: cover;
+  
+  position: absolute;
+  top: 170px;
+  left: 280px;
+  } 
+   #title_name{
+    position: absolute;
+    top: 260px;
+    left: 780px;
+    font-size: 50px;
+    text-transform: uppercase;
+   }
+  
+   #jun2{
+   
+     position: absolute;
+     left:360px ;
+    top:-05px;
+    text-decoration:line-through;
+
+    font-size: 30px;
+font-family: "Kumar One Outline", system-ui;
+font-weight: 35;
+font-style: normal;
+
+}
+   #Article_heading{
+    position: absolute;
+    top: 350px;
+    left: 780px;
+    font-size: 20px;
+
+   }
+   #article_content{
+    position: absolute;
+    top: 385px;
+    left: 780px;
+    width: 550px;
+
+   }
+  
+   #jun3{
+    position: absolute;
+    top: 145px;
+    left:130px;
+    font-family: "Kumar One Outline", system-ui;
+font-weight: 40;
+font-style: normal;
+   }
+   #article_nav div{
+    width: 105px;
+    height: 105px;
+    border-radius: 50%;
+    color:rgb(0, 0, 0);
+    line-height: 90px;
+   letter-spacing: 1px;
+   font-size: 20px;
+   font-weight: bold;
+   transition: 1s;
+   position: absolute;
+   text-align: center;
+   border: 2px solid black;
+   }
+   #article_nav #Resume:hover, #article_nav #Research:hover , #article_nav #Outreach:hover, #article_nav #Skills:hover, #article_nav #Personal:hover{
+    background-color: white;
+   }
+ 
+  #article_nav #Resume{
+   background-color: #d8abec; 
+  left: 700px;
+    top: 590px;
+  }
+
+  #article_nav #Research{
+    left: 825px;
+    top: 590px; 
+   background-color: #ff8f99;
+  }
+
+  #article_nav #Outreach{
+    background-color: #80D8DA;
+    left: 950px;
+    top: 590px;
+ }
+#article_nav #Skills{
+  background-color: #f8d2ea;
+   left: 1075px;
+    top: 590px;
+  }
+
+  #article_nav #Personal{
+    background-color: #C7C7C7;
+    left: 1198px;
+    top: 590px;
+   text-align: center;
+   }
+  
+
+  .A_nav{
+    border: 1px solid black;
+    
+      }
+  hr{
+    position: absolute;
+    top: 820px;
+    width: 100%;
+    color: aqua;
+
+  }
+  #connection_nav{
+    position: absolute;
+    width: 100%;
+    height: 120px;
+    top: 900px;
+    display: flex;
+    justify-content: space-evenly;
+    }
+#connection_nav div{
+ line-height: 25px;
+ width: 300px;
+ height: 100px;
+
+}
+
+ a{
+text-decoration: none;
+color: rgb(0, 0, 0);
+}
+j,l,e,g{
+    letter-spacing: px;
+    font-weight: bolder;
+}
+#mode_box{
+    width: 36px;
+    height: 17px;
+   background-color: rgb(0, 0, 0);
+    position: absolute;
+    border-radius: 15px;
+    top: 1px;
+    right: 1px;
+    box-shadow: 1px 1px 1px rgb(0, 0, 0);
+
+
+
+}
+#mode_symbol{
+    width: 18px;
+    height: 18px;
+    
+    position: absolute;
+   
+   border-radius: 50%;
+   transition: 0.5s;
+   background-color: rgb(252, 92, 94);
+}
+#check:checked~#site_container{
+  background-color: black;
+color: rgb(255, 255, 255);
+}
+#check:checked ~#site_container .mode #mode_box{
+   background-color: rgb(255, 255, 255);
+   box-shadow: 1px 1px 1px rgb(0, 0, 0);
+
+}
+#check:checked ~#site_container .mode #mode_box #mode_symbol{
+transform: translatex(19px);
+  background-color: blue;
+
+}
+#check:checked~#site_container a{
+  color: rgb(255, 255, 255);
+}#check:checked~#site_container  #article_nav div{
+  border: 2px solid blue;
+  }
+
+#check:checked~#site_container  #article_nav #Resume{
+background-color: #FF4CAF;
+color: black;
+border: 2px solid blue;
+}
+#check:checked~#site_container  #article_nav #Research{
+background-color: #944CFF;
+color: black;
+}
+#check:checked~#site_container  #article_nav #Skills{
+background-color: #00BFA5;
+color: black;
+}
+#check:checked~#site_container  #article_nav #Personal{
+background-color:   #FF5252;
+color: black;
+}
+
+#check:checked~#site_container  #article_nav #Outreach{
+background-color: #94FF4C;
+color: black;
+
+}
+#check:checked~#site_container .jun{
+  color: blue;
+  }
+#check:checked~ #site_container #header_nav .nav{
+height: 20px;
+border-right: 2px solid blue;
+}
+#check:checked~#site_container .A_nav{
+border: 1px solid blue;
+}
+#check:checked~#site_container #color_box1{
+background-color: blue;
+}
+#check:checked~#site_container #site_logo_image{
+background-image: url(title1_image.jpg.png);
+border: 0.25px solid white;
+}
+#check:checked~#site_container #article_nav #Resume:hover{
+background-color: black;
+color: white;
+}
+#check:checked~#site_container #article_nav #Research:hover{
+background-color: black;
+color: white;
+}#check:checked~#site_container #article_nav #Outreach:hover{
+background-color: black;
+color: white;
+}#check:checked~#site_container #article_nav #Skills:hover{
+background-color: black;
+color: white;
+}#check:checked~#site_container #article_nav #Personal:hover{
+background-color: black;
+color: white;
+}
+input{
+display: none;
+}
+i{
+  color: blue;
+}
